@@ -10,7 +10,7 @@ from tensorflow.keras import Model
 from tensorflow.keras.regularizers import l2
 
 from yolo3.utils import compose
-tf.python_io.control_flow_ops = tf
+#tf.python_io.control_flow_ops = tf
 
 @wraps(Conv2D)
 def DarknetConv2D(*args, **kwargs):
